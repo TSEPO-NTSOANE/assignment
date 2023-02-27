@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="611.0" style="-fx-background-color: skyblue;" stylesheets="@../../../../java/com/mycompany/assignmentinteraction/MyStyle.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.assignmentinteraction.PrimaryController">
+   <children>
+      <Button layoutX="52.0" layoutY="44.0" mnemonicParsing="false" onAction="#BelgiumButton" text="BELGIUM">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="529.0" layoutY="44.0" mnemonicParsing="false" onAction="#GermanyButton" text="GERMANY">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="287.0" layoutY="44.0" mnemonicParsing="false" onAction="#IndiaButton" text="INDIA">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="Lesotho" layoutX="45.0" layoutY="310.0" mnemonicParsing="false" onAction="#LesothoButton" text="LESOTHO">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="529.0" layoutY="310.0" mnemonicParsing="false" onAction="#FranceButton" text="FRANCE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="311.0" layoutY="399.0" mnemonicParsing="false" onAction="#ClearButton" text="CLEAR">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Rectangle fx:id="Lesotho1" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="43.0" layoutX="190.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <Rectangle fx:id="Lesotho2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="43.0" layoutX="190.0" layoutY="145.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <Rectangle fx:id="Lesotho3" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="43.0" layoutX="191.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <TextArea fx:id="LesothoNews" layoutX="193.0" layoutY="272.0" prefHeight="116.0" prefWidth="285.0" promptText="Lesotho is the landlocked country, It was found   by Moshoeshoe 1. It is the small country, and  its dependency on 04 October 1966 KHOTSO PULA NALA Chaba sa Thesele maapara kobo" />
+      <Rectangle fx:id="Germany3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="191.0" layoutY="187.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <Rectangle fx:id="Germany2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="190.0" layoutY="144.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <Rectangle fx:id="Germany1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="190.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <Rectangle fx:id="India1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="189.0" layoutY="103.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <Rectangle fx:id="India2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="190.0" layoutY="144.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <Rectangle fx:id="India3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="190.0" layoutY="187.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <Rectangle fx:id="France1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="129.0" layoutX="198.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="France2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="129.0" layoutX="288.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="France3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="129.0" layoutX="378.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="Belgium1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="129.0" layoutX="198.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="Belgium2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="129.0" layoutX="288.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="Belgium3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="129.0" layoutX="378.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="Defoult" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="43.0" layoutX="188.0" layoutY="102.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <Rectangle fx:id="Defoult1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="43.0" layoutX="189.0" layoutY="144.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <Rectangle fx:id="Defoult2" arcHeight="5.0" arcWidth="5.0" fill="GREEN" height="43.0" layoutX="190.0" layoutY="187.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+   </children>
+</AnchorPane>

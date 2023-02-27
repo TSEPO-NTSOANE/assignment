@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="611.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.assignmentinteraction.SecondaryController">
+   <children>
+      <Button layoutX="30.0" layoutY="42.0" mnemonicParsing="false" onAction="#BelgiumButton" text="BELGIUM">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="280.0" layoutY="42.0" mnemonicParsing="false" onAction="#IndiaButton" text="INDIA">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="517.0" layoutY="42.0" mnemonicParsing="false" onAction="#GermanyButton" text="GERMANY">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="30.0" layoutY="363.0" mnemonicParsing="false" onAction="#LesothoButton" text="LESOTHO">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="524.0" layoutY="363.0" mnemonicParsing="false" onAction="#FranceButton" text="FRANCE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="280.0" layoutY="399.0" mnemonicParsing="false" onAction="#ClearButton" text="CLEAR">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Rectangle fx:id="Lesotho1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="191.0" layoutY="93.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <Rectangle fx:id="Lesotho2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="191.0" layoutY="136.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <Rectangle fx:id="Lesotho3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="43.0" layoutX="191.0" layoutY="179.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+      <TextArea layoutX="200.0" layoutY="271.0" prefHeight="116.0" prefWidth="285.0" />
+   </children>
+</AnchorPane>
